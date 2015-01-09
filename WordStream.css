@@ -1,15 +1,24 @@
 * {
-	outline: 1px solid red;
+/*	outline: 1px solid red;*/
 	padding: 0;
 	margin: 0;
+	vertical-align: top;
 }
 
-.wrapper {
+div.wrapper {
 	width: 970px;
 	min-height: 500px;
-/*	background-color: red*/
+/*	background-color: grey;*/
 }
-	.header {
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%
+}
+.important {
+	font-weight: bold;
+}
+	div.header {
 		width: 970px;
 		min-height: 100px;
 		padding-top: 10px;
@@ -19,7 +28,6 @@
 		.header h1 {
 			display: inline-block;
 			margin-top: 15px;
-			vertical-align: top;
 		}
 		.word {
 			color: grey;
@@ -56,14 +64,138 @@
 			margin-left: 10px;
 		}
 	.left-body {
-		width: 25%;
-		height: 600px;
-		background-color: grey;
+		width: 275px;
+		height: 800px;
+/*		background-color: pink;*/
 		display: inline-block;
+		margin-left: 10px;
 	}
+		.left-body h3 {
+			color: #1382AC;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+		.span-red {
+			color: red;
+			font-weight: bold;
+		}
+		.span-blue {
+		margin-top: 5px; 
+		margin-bottom: 15px;
+		}
+		.span-blue span{
+			color: #1382AC;
+		}
+		.left-body input {
+			width: 270px;
+			height: 50px;
+			margin-top: 10px;
+			border-radius: 5px;
+			color: white;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.blue-button {
+			background-color: #1382AC;
+		}
+		.orange-button {
+			background-color: #FF6600;
+		}
+		.centered {
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		.measure-up {
+			width: 200px;
+			min-height: 300px;
+			background-image: url(left_content_ad.png);
+			background-size: cover;
+			padding: 20px;
+		}
+		.measure-up h3 {
+			margin-top: 0px;
+			margin-bottom: 10px;
+		}
+		.measure-up input {
+			width: 200px;
+			height: 30px;
+			background-color: #1382AC;
+			text-align: center;
+			font-size: 14px;
+		}
+
+
 	.right-body {
-		width: 74%;
-		height: 600px;
-		background-color: pink;
+		width: 678px;
+		height: 800px;
+/*		background-color: pink;*/
 		display: inline-block;
+		margin-top: 2px;
+		padding-top: 10px;
 	}
+		.right-body a {
+			color: #1382AC;
+		}
+		.right-body h4 {
+			display: inline-block;
+			color: #1382AC;
+			margin-top: 3px;
+		}
+		.right-body p {
+			margin-top: 20px;
+		}
+		.contact {
+			width: 175px;
+			height: 50px;
+			background-image: url(phone.png);
+			background-repeat: no-repeat;
+			margin-left: 375px;
+			text-align: right;
+			display: inline-block;
+		}
+		.contact h2 {
+			color: #1382AC;
+		}
+		.contact p {
+			font-size: 10px;
+			margin: 0px;
+		}
+		.right-body hr {
+			width: 630px;
+		}
+		.right-body h3 {
+			color: #1382AC;
+			font-weight: bolder;
+		}
+		.right-body ul {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.right-body li {
+			margin-left: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.drive {
+			width: 550px;
+			height: 165px;
+			border: 5px solid lightblue;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			padding-top: 10px;
+			padding-left: 70px;
+			background-image: url(content_ad.png);
+			background-repeat: no-repeat;
+		}
+			.drive input {
+			width: 170px;
+			height: 40px;
+			margin-top: 10px;
+			border-radius: 7px;
+			color: white;
+			font-size: 18px;
+			background-color: #91B547;
+			text-align: center;
+			}
+
